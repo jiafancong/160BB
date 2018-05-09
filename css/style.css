@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+.wrap {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.wrap {
+  font-size: .3rem;
+  display: flex;
+  flex-direction: column;
+  background: #ccc;
+}
+
+header {
+  width: 100%;
+  height: .8rem;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: .4rem;
+}
+
+.main {
+  width: 100%;
+  background: #fff;
+}
+
+.main ul {
+  width: 100%;
+}
+
+.main ul li {
+  width: 100%;
+  padding: .4rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.main ul li .one {
+  height: 1.5rem;
+}
